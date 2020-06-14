@@ -14,6 +14,7 @@
 #![deny(warnings)]
 #![feature(asm)]
 #![no_std]
+#![feature(llvm_asm)]
 
 #[cfg(test)]
 extern crate std;
